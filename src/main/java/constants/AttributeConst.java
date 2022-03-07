@@ -63,7 +63,7 @@ public enum AttributeConst {
 
     }
 
-    private String getVAlue() {
+    public String getValue() {
         return this.text;
     }
 
