@@ -20,6 +20,10 @@ public class EmployeeView {
     /*
      * id
      */
+   private Integer id;
+    /*
+     * 社員番号
+     */
     private String code;
 
     /*
@@ -52,10 +56,7 @@ public class EmployeeView {
      */
     private Integer deleteFlag;
 
-    public Integer getId() {
-        // TODO 自動生成されたメソッド・スタブ
-        return null;
     }
 
 
-}
+
