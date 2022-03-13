@@ -43,7 +43,7 @@
         </table>
 
         <div id="pagination">
-            （全 ${employees_count} 件）<br />
+            （全 ${employee_count} 件）<br />
             <c:forEach var="i" begin="1" end="${((employees_count - 1) / maxRow) + 1}" step="1">
                 <c:choose>
                     <c:when test="${i == page}">
